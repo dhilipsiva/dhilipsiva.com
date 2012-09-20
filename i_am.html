@@ -1,74 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>DhilipSiva</title>
-		<meta name="description" content="DhilipSiva">
-		<meta name="author" content="DhilipSiva">
-		<meta name="keywords" content="DhilipSiva">
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-		<style>
-			body 
-			{
-				padding-top: 60px;			
-			}
-		</style>
-	</head>
+<head>
+	<meta charset="utf-8">
+	<title>DhilipSiva</title>
+	<meta name="description" content="DhilipSiva">
+	<meta name="author" content="DhilipSiva">
+	<meta name="keywords" content="DhilipSiva">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+	<style>
+		body {
+			padding-top: 60px;			
+		}
+	</style>
+</head>
 
-	
-	<body>
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</a>
-					<a class="brand" href="index.html" rel='tooltip' title="&hearts; I guess that's my homepage &hearts;">DhilipSiva</a>
-					<div class="nav-collapse">
-						<ul class="nav">
-							<li><a href="index.html" rel='tooltip' title="&hearts; I guess that's my homepage &hearts;">Home</a></li>
-							<li  class="active"><a href="i_am.html" rel="tooltip" title="&hearts; I am what I am, and that's all what I am &hearts;">I am...</a></li>
-							<li><a href="discover_more.html" rel="tooltip" title="&hearts; curious, huh? &hearts;">Discover More</a></li>
-							<li><a href="get_in_touch.html" rel="tooltip" title="&hearts; its my pleasure &hearts;">Get in touch</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-<hr>
+<body>
+	<div id="fb-root"></div>
+	<script>
+	(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=435664143147036";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
 
-		<div id = "index">
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
 			<div class="container">
-				<div class="row">
-					<div class="hero-unit">
-						<h1>I am...</h1><br/>
-						<p>I am what I am and thats all what I am. </p>
-						<p>I craft ideas into software. I love C, Python, JavaScript, Shell, Vim, Cocoa, .Net, Design Patterns and User Interactivity. S/W Engg at <a href="http://tataatsu.com" target="_blank">Tataatsu IdeaLabs</a>.</p>
-						<p>But wait, there is a little more about me..</p>
-						<p><a class="btn btn-primary btn-large" href="discover_more.html" rel="tooltip" title="&hearts; curious, huh? &hearts;">Discover More</a></p>
-					</div>
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</a>
+				<a class="brand" href="index.html" rel='tooltip' title="&hearts; I guess that's my homepage &hearts;">DhilipSiva</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li><a href="index.html" rel='tooltip' title="&hearts; I guess that's my homepage &hearts;">Home</a></li>
+						<li class="active"><a href="i_am.html" rel="tooltip" title="&hearts; I am what I am, and that's all what I am &hearts;">I am...</a></li>
+						<li><a href="discover_more.html" rel="tooltip" title="&hearts; curious, huh? &hearts;">Discover More</a></li>
+						<li><a href="get_in_touch.html" rel="tooltip" title="&hearts; its my pleasure &hearts;">Get in touch</a></li>
+					</ul>
 				</div>
-			<p>* I use this site only to experiment / play around. You *will* most likely find something broken. If you want to help me fix this, you can always <a href="https://github.com/dhilipsiva/dhilipsiva.github.com" target="_blank">fork this on github</a> ;)</p>	
 			</div>
 		</div>
+	</div>
+
+	<div id = "index">
+		<div class="container">
+			<div class="row">
+				<div class="hero-unit">
+					<h1>I am...</h1><br/>
+					<p>I am what I am and thats all what I am. </p>
+					<p>I craft ideas into software. I love C, Python, JavaScript, Shell, Vim, Cocoa, .Net, Design Patterns and User Interactivity. S/W Engg at <a href="http://tataatsu.com" target="_blank">Tataatsu IdeaLabs</a>.</p>
+					<p>But wait, there is something more...</p>
+					<p><a class="btn btn-primary btn-large" href="discover_more.html" rel="tooltip" title="&hearts; curious, huh? &hearts;">Discover More</a></p>
+				</div>
+		</div>
+			<p>* I use this site only to experiment / play around. You *will* most likely find something broken. If you want to help me fix this, you can always <a href="https://github.com/dhilipsiva/dhilipsiva.github.com" target="_blank">fork this on github</a> ;)</p>	
+		</div>
+	</div>
 
 
 
-		<script src="bootstrap/js/jquery.js"></script>
-		<script src="bootstrap/js/bootstrap-transition.js"></script>
-		<script src="bootstrap/js/bootstrap-alert.js"></script>
-		<script src="bootstrap/js/bootstrap-modal.js"></script>
-		<script src="bootstrap/js/bootstrap-dropdown.js"></script>
-		<script src="bootstrap/js/bootstrap-scrollspy.js"></script>
-		<script src="bootstrap/js/bootstrap-tab.js"></script>
-		<script src="bootstrap/js/bootstrap-tooltip.js"></script>
-		<script src="bootstrap/js/bootstrap-popover.js"></script>
-		<script src="bootstrap/js/bootstrap-button.js"></script>
-		<script src="bootstrap/js/bootstrap-collapse.js"></script>
-		<script src="bootstrap/js/bootstrap-carousel.js"></script>
-		<script src="bootstrap/js/bootstrap-typeahead.js"></script>
-	</body>
+	<script src="bootstrap/js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap-transition.js"></script>
+	<script src="bootstrap/js/bootstrap-alert.js"></script>
+	<script src="bootstrap/js/bootstrap-modal.js"></script>
+	<script src="bootstrap/js/bootstrap-dropdown.js"></script>
+	<script src="bootstrap/js/bootstrap-scrollspy.js"></script>
+	<script src="bootstrap/js/bootstrap-tab.js"></script>
+	<script src="bootstrap/js/bootstrap-tooltip.js"></script>
+	<script src="bootstrap/js/bootstrap-popover.js"></script>
+	<script src="bootstrap/js/bootstrap-button.js"></script>
+	<script src="bootstrap/js/bootstrap-collapse.js"></script>
+	<script src="bootstrap/js/bootstrap-carousel.js"></script>
+	<script src="bootstrap/js/bootstrap-typeahead.js"></script>
+</body>
 </html>
