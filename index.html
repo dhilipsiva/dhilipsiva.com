@@ -46,8 +46,8 @@
                         			<p>I craft ideas into software. I love C, Python, Clojure, JavaScript, Shell, Vim, Nodejs, Cocoa, .Net, Design Patterns and User Interactivity.<a href="http://tataatsu.com" target="_blank"> @Tataatsu IdeaLabs</a>.</p>
                         			<h3><span class="dynamo" data-lines="C, Python, Clojure, JavaScript, Shell, Vim, Nodejs, Cocoa, .Net, Design Patterns, User Interactivity, Tataatsu IdeaLabs." data-delay=1000ms data-speed=350ms >Tataatsu IdeaLabs</span><h3>
 						<h2>Latest update</h2>
-						<p>
-						Structure and Interpretation of Computer Programs (SICP). A must read book for every software craftsman out there. I am in love with it.	
+						<p id="last-tweet">
+						Please wait.... Loading...
 						</p>
 						
 					</div>
@@ -85,5 +85,16 @@
   })();
 
 </script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+var url='https://api.twitter.com/1/statuses/user_timeline/dhilipsiva.json?callback=?';
+	$.getJSON(url,function(tweet){
+		$("#last-tweet").html(tweet[0].text);
+	});
+	
+});
+</script>
+
 </body>
 </html>
