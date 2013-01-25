@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>{% block title %}DhilipSiva{% endblock %}</title>
+        <meta name="description" content="DhilipSiva" />
+        <meta name="author" content="DhilipSiva" />
+        <meta name="keywords" content="DhilipSiva" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="/static/favicon.ico" />
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap.no-icons.min.css" rel="stylesheet" />
+        <style>
+            body {
+            padding-top: 100px;			
+            }
+        </style>
+        {% block css %}{% endblock %}
+    </head>
+    <body>
+        <header>
+            {% include "header.html" %}
+        </header>
+        <div id="main" role="main">
+            {% block main %}{% endblock %}
+        </div>
+        <footer>
+            {% include "footer.html" %}
+        </footer>
+        <!--[if lt IE 8 ]>
+        <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+        <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+        <![endif]-->
+        <!-- HTML5 shim, for IE 6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
+        <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script> 
+        {% block js %}{% endblock %}
+        <script type="text/javascript">
+            var GoSquared = {};
+            GoSquared.acct = "GSN-764389-Z";
+            (function(w){
+              function gs(){
+                w._gstc_lt = +new Date;
+                var d = document, g = d.createElement("script");
+                g.type = "text/javascript";
+                g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+                var s = d.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(g, s);
+              }
+              w.addEventListener ?
+                w.addEventListener("load", gs, false) :
+                w.attachEvent("onload", gs);
+            })(window);
+        </script>
+    </body>
+</html>
