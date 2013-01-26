@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -38,11 +38,6 @@ def send_text_file(file_name):
 def send_xml_file(file_name):
     file_dot_text = file_name + '.xml'
     return app.send_static_file(file_dot_text)
-
-
-@app.route('/DSBarChart')
-def DSBarChart():
-    return redirect('http://dhilipsiva.github.com/DSBarChart/')
 
 
 @app.after_request
