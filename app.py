@@ -40,7 +40,7 @@ def send_xml_file(file_name):
     return app.send_static_file(file_dot_text)
 
 
-@app.route('/DSBarChart')
+@app.route('/DSBarChart/')
 def DSBarChart():
     return redirect('http://dhilipsiva.github.com/DSBarChart/')
 
