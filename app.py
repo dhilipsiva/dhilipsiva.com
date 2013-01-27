@@ -45,6 +45,11 @@ def DSBarChart():
     return redirect('http://dhilipsiva.github.com/DSBarChart/')
 
 
+@app.route('/blog/')
+def DSBarChart():
+    return redirect('http://dhilipsiva.blogspot.com')
+
+
 @app.after_request
 def add_header(response):
     response.headers['X-UA-Compatible'] = 'IE=Edge,chrome=1'
