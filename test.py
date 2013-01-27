@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-"""Tests for the Flask Heroku template."""
-
 import unittest
 from app import app
 
@@ -16,21 +14,17 @@ class TestApp(unittest.TestCase):
         self.assertTrue(rv.data)
         self.assertEquals(rv.status_code, 200)
 
-    def test_about_page_works(self):
-        rv = self.app.get('/about/')
-        self.assertTrue(rv.data)
-        self.assertEquals(rv.status_code, 200)
-
-    def test_default_redirecting(self):
-        rv = self.app.get('/about')
-        self.assertEquals(rv.status_code, 301)
-
     def test_404_page(self):
         rv = self.app.get('/i-am-not-found/')
         self.assertEquals(rv.status_code, 404)
 
-    def test_static_text_file_request(self):
+    def robots_txt(self):
         rv = self.app.get('/robots.txt')
+        self.assertTrue(rv.data)
+        self.assertEquals(rv.status_code, 200)
+
+    def sitemap_xml(self):
+        rv = self.app.get('/sitemap.xml')
         self.assertTrue(rv.data)
         self.assertEquals(rv.status_code, 200)
 
