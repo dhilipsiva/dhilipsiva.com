@@ -1,31 +1,19 @@
 {% extends "base.html" %}
-{% block title %}Home | DhilipSiva{% endblock %}
-{% block js %}
-<script type="text/javascript">
-    $(document).ready(function(){
-    var url='//api.twitter.com/1/statuses/user_timeline/dhilipsiva.json?callback=?';
-    	$.getJSON(url,function(tweet){
-    		$("#last-tweet").html(tweet[0].text);
-    	});
-    	
-    });
-</script>
-<script src="//raw.github.com/prezjordan/dynamo.js/master/dynamo.min.js"></script>
-{% endblock %}
+{% block title %}DhilipSiva Bijju{% endblock %}
 {% block main %}
 <div id="index">
     <div class="container">
         <div class="row">
             <div class="span8">
-                <div class="hero-unit">
-                    <h1>DhilipSiva</h1>
+                <div class="hero-unit"  itemscope itemtype="http://data-vocabulary.org/Person">
+                    <h1><span itemprop="name">DhilipSiva</span> <span itemprop="nickname">Bijju</span></h1>
                     <p>I craft ideas into software. I love C, Python, Clojure, JavaScript, Shell, Vim, Nodejs, Cocoa, .Net, Design Patterns and User Interactivity.<a href="http://tataatsu.com" target="_blank"> @Tataatsu IdeaLabs</a>.</p>
                     <h3 />
                     <span class="dynamo" data-lines="C, Python, Clojure, JavaScript, Shell, Vim, Nodejs, Cocoa, .Net, Design Patterns, User Interactivity" data-delay="1000ms" data-speed="350ms">Tataatsu IdeaLabs</span>
                     <h3 />
-                    <h5>Latest update from <a href="https://twitter.com/dhilipsiva" target="_blank">@dhilipsiva</a>:</h5>
+                    <h5>Latest update from <a href="https://twitter.com/dhilipsiva" target="_blank" itemprop="url">@dhilipsiva</a>:</h5>
                     <p id="last-tweet">
-                        Please wait.... Loading...
+                        Please wait... Loading last update from twitter...
                     </p>
                 </div>
             </div>
@@ -46,4 +34,16 @@
         </div>
     </div>
 </div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+    $(document).ready(function(){
+    var url='//api.twitter.com/1/statuses/user_timeline/dhilipsiva.json?callback=?';
+        $.getJSON(url,function(tweet){
+    		$("#last-tweet").html(tweet[0].text);
+    	});
+    	
+    });
+</script>
+<script src="//raw.github.com/prezjordan/dynamo.js/master/dynamo.min.js"></script>
 {% endblock %}
