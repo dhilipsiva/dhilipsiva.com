@@ -5,27 +5,27 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('home.html', page='home')
 
 
 @app.route('/i_am')
 def i_am():
-    return render_template('i_am.html')
+    return render_template('i_am.html', page='i_am')
 
 
 @app.route('/projects')
 def projects():
-    return render_template('projects.html')
+    return render_template('projects.html', page='projects')
 
 
 @app.route('/technologies')
 def technologies():
-    return render_template('technologies.html')
+    return render_template('technologies.html', page='technologies')
 
 
 @app.route('/get_in_touch')
 def get_in_touch():
-    return render_template('get_in_touch.html')
+    return render_template('get_in_touch.html', page='get_in_touch')
 
 
 @app.route('/<file_name>.txt')
