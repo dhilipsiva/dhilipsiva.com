@@ -8,20 +8,26 @@
         <meta name="keywords" content="DhilipSiva" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="/static/favicon.ico" />
-        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap.no-icons.min.css" rel="stylesheet" />
-        <style>
-            body {
-            padding-top: 100px;			
-            }
-        </style>
+        <link href="/static/css/modern.css" rel="stylesheet" />
+        <link href="/static/css/modern-responsive.css" rel="stylesheet" />
         {% block css %}{% endblock %}
     </head>
-    <body>
-        <header>
-            {% include "header.html" %}
-        </header>
-        <div id="main" role="main" class="container">
-            {% block main %}{% endblock %}
+    <body class="border-color-green">
+        <div class="page" id="main" role="main">
+            <div class="page secondary">
+                <div class="page-header">
+                    <div class="page-header-content">
+                        <header>
+                            {% include "header.html" %}
+                        </header>
+                    </div>
+                </div>
+                <div class="page-region fg-color-green">
+                    <div class="page-region-content">
+                        {% block main %}{% endblock %}
+                    </div>
+                </div>
+            </div>
         </div>
         <!--[if lt IE 8 ]>
         <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
@@ -33,7 +39,6 @@
         <![endif]-->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
         <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script> 
         {% block js %}{% endblock %}
         <script type="text/javascript">
             var GoSquared = {};
@@ -54,3 +59,4 @@
         </script>
     </body>
 </html>
+
