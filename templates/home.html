@@ -1,23 +1,27 @@
 {% extends "base.html" %}
 {% block title %}DhilipSiva Bijju{% endblock %}
 {% block main %}
-<div id="index" class="grid">
-    <div class="row">
-	    <div class="span8">
-            <div itemscope itemtype="http://data-vocabulary.org/Person">
-                <h1><span itemprop="name">DhilipSiva</span> <span itemprop="nickname">Bijju</span></h1>
-                <p>Full Stack Developer. I build scalable, maintainable and smart stuffs for mobile and web.</p>
-                <h3 />
-                <h3 class="dynamo" data-lines="C, Python, Clojure, JavaScript, Shell, Vim, Nodejs, Cocoa, .Net, Design Patterns, User Interactivity" data-delay="1000ms" data-speed="350ms">Tataatsu IdeaLabs</h3>
-                <h3 />
-                <h5>Latest update from <a href="https://twitter.com/dhilipsiva" target="_blank" itemprop="url">@dhilipsiva</a>:</h5>
-                <p id="last-tweet">
-                    Please wait... Loading last update from twitter...
-                </p>
+<div id="index">
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <div class="hero-unit" itemscope itemtype="http://data-vocabulary.org/Person">
+                    <h1><span itemprop="name">DhilipSiva</span> <span itemprop="nickname">Bijju</span></h1>
+                    <p>Full Stack Developer. I build scalable, maintainable and smart stuffs for mobile and web.</p>
+                    <h3 />
+                    <span class="dynamo" data-lines="C, Python, Clojure, JavaScript, Shell, Vim, Nodejs, Cocoa, .Net, Design Patterns, User Interactivity" data-delay="1000ms" data-speed="350ms">Tataatsu IdeaLabs</span>
+                    <h3 />
+                    <h5>Latest update from <a href="https://twitter.com/dhilipsiva" target="_blank" itemprop="url">@dhilipsiva</a>:</h5>
+                    <p id="last-tweet">
+                        Please wait... Loading last update from twitter...
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="span4">
-            <img src="static/dhilipsiva.jpg" alt="DhilipSiva" />
+            <div class="span4">
+                <div class="thumbnail">
+                    <img src="static/dhilipsiva.jpg" alt="DhilipSiva" />
+                </div>
+            </div>
         </div>
         <div class="row" style="position:fixed; bottom:0px">
             <p>I built this site just for fun. To experiment and play. So, don't be surprised if you find something broken.</p>
@@ -37,4 +41,3 @@
 </script>
 <script src="//raw.github.com/prezjordan/dynamo.js/master/dynamo.min.js"></script>
 {% endblock %}
-
