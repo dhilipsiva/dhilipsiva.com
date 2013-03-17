@@ -50,6 +50,14 @@ def DSBarChart():
     return redirect('http://dhilipsiva.blogspot.com')
 
 
+'''
+This is for pintrest verification!
+'''
+@app.route('/pinterest-b9898.html')
+def DSBarChart():
+    return render_template('pinterest-b9898.html')
+
+
 @app.after_request
 def add_header(response):
     response.headers['X-UA-Compatible'] = 'IE=Edge,chrome=1'
