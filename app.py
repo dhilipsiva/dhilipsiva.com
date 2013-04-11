@@ -46,7 +46,7 @@ def DSBarChart():
 
 
 @app.route('/blog/')
-def DSBarChart():
+def blog():
     return redirect('http://dhilipsiva.blogspot.com')
 
 
