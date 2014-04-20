@@ -34,3 +34,6 @@ build/
 .rvmrc
 
 _site
+*.swp
+.sass-cache
+Gemfile.lock

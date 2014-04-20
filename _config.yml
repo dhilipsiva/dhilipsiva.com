@@ -1,3 +1,11 @@
-name: Your New Jekyll Site
+name: dhilipsiva
 markdown: redcarpet
 pygments: true
+assets:
+  js_compressor: uglifier
+  css_compressor: sass
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/posts
