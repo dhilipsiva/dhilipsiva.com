@@ -1,4 +1,4 @@
 dhilipsiva.github.io
 ====================
 
-My personal site
+Source code of my personal website and blog.
