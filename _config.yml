@@ -1,4 +1,6 @@
 name: dhilipsiva
+description: dhilipsiva
+url: http://dhilipsiva.com
 markdown: redcarpet
 pygments: true
 assets:
