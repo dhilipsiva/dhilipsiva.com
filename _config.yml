@@ -10,3 +10,11 @@ assets:
     - _assets/images
     - _assets/javascripts
     - _assets/sass
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/feed.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "daily"
+    priority_name: "0.80"
