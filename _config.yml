@@ -7,5 +7,4 @@ assets:
   sources:
     - _assets/images
     - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/posts
+    - _assets/sass
