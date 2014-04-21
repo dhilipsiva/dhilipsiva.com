@@ -1,26 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
+
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="title" content="{{ page.title }}"/>
+        <meta name="description" content="{{ page.description }}"/>
+        <meta name="keywords" content="dhilipsiva"/>
+
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="og:description" content="{{ page.description }}" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+        <meta property="fb:profile_id"   content="1627550002" />
+        <meta property="profile:username"   content="dhilipsiva" />
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="{{ page.title }}" />
+        <meta name="twitter:description" content="{{ page.description }}" />
+        <meta name="twitter:creator" content="@dhilipsiva">
+        <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+        <meta name="twitter:site" content="@dhilipsiva" />
+        <meta name="twitter:domain" content="dhilipsiva.com" />
+
         <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/feed.xml">
+
         {% stylesheet styles %}
     </head>
     <body>
         <div id="wrapper">
             <div id="sidebar-wrapper">
                 <ul class="sidebar-nav">
-                    <li class="sidebar-brand"><a href="#">dhilipsiva</a></li>
+                    <li class="sidebar-brand">
+                        <a class="glyphicon glyphicon-home" href="/">
+                            dhilipsiva
+                        </a>
+                    </li>
                     <li><a href="#">Dashboard</a></li>
                 </ul>
             </div>
             <div id="page-content-wrapper">
                 <div class="content-header">
                     <h1>
-                        <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
-                        Simple Sidebar
+                        <a id="menu-toggle" href="#" class="btn btn-info">
+                            <span class="glyphicon glyphicon-list"></span>
+                            Menu
+                        </a>
+                        {{ page.title }}
                     </h1>
                 </div>
                 <div class="page-content inset">
