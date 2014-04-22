@@ -9,7 +9,7 @@
     margin-left: -250px;
     left: 250px;
     width: 250px;
-    background: lighten(#000, 20%);
+    background: darken(#fff, 5%);
     position: fixed;
     height: 100%;
     overflow-y: auto;
@@ -22,6 +22,9 @@
 }
 
 .sidebar-nav {
+    .glyphicon{
+        display: initial;
+    }
     position: absolute;
     top: 0;
     width: 250px;
@@ -30,10 +33,9 @@
     margin-top: 30px;
     padding: 0;
     li {
-        line-height: 40px;
         text-indent: 20px;
+        height: 40px;
         a {
-            display: block;
             text-decoration: none;
             &:hover {
                 text-decoration: none;
@@ -46,7 +48,8 @@
     > .sidebar-brand {
         height: 65px;
         line-height: 60px;
-        font-size: $font-size-h4;
+        font-size: $font-size-h3;
+        margin-bottom: 30px;
         a {
             &:hover {
                 background: none;
