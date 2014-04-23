@@ -1,0 +1,14 @@
+---
+layout: default
+title: Profiles
+description: dhilipsiva - profiles
+---
+<ul>
+{% for profile in site.data.profiles %}
+  <li>
+    <a href="{{ profile.url }}">
+      {{ profile.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
