@@ -100,3 +100,13 @@
         padding: 15px;
     }
 }
+.posts {
+    list-style-type: circle;
+    .post-title {
+        font-size: $font-size-h4;
+    }
+    .post-date {
+        font-size: $font-size-tiny;
+        color: darken(#fff, 30%);
+    }
+}
