@@ -1,0 +1,11 @@
+- name: "ReWire"
+  link: "http://rewireapp.com/"
+  description: "one of the world’s first interactive meditation apps. Fun and effective, ReWire trains powerful attention and clear presence quickly. Try a session and see for yourself why experienced meditators and newbies alike are calling ReWire “shockingly effective”. This product was <strong><em>discontinued</em></strong>."
+
+- name: "CollabLayer"
+  link: "http://collablayer.com/"
+  description: "Real-time Collaboration. Post-PC style. CollabLayer is an app to help collaborate around documents/images with your teams, customers and partners in real-time."
+
+- name: Others
+  link: "/open-source"
+  description: "You must me thinking: `This guy built only two products and call himself experienced?`. I have actually built almost a dozen of products. But I am not supposed to share those information here as most of the startups that I worked with is actually in stealth mode. Would love to share a lot."
