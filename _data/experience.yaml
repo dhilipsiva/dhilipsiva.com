@@ -1,0 +1,14 @@
+- name: "Tataatsu"
+  link: "http://tataatsu.com/"
+  duration: "Jan 2012 - Feb 2013"
+  description: "While I was at Tataatsu, I worked in `ReWire` and `CollabLayer`. Most of my work was on writing Backened for CollabLayer and write ReWire(a Native iOS app). And later got kicked out of the company. The mistake was totally on my part. I failed to be a good employee. But it taught me some of the valuble lessons of my life, the hard way. But it was totally worth it."
+
+- name: "LaunchYard"
+  link: "http://tataatsu.com/"
+  duration: "June 2013 - April 2014"
+  description: "I worked on almost half a dozen of startups while I was at LauchYard. I did everyhting from Architecting, Coding, DevOps and Scaling both front-end and back-end. I learned how to decouple Front-end completly from Back-end too. I also got to train some of my colleagues. Awesome place to work in. I totally loved working there. I learned some important lessons there too. I wanted to build something on my own, so I left LY."
+
+- name: "Others"
+  link: "#"
+  duration: "N/A"
+  description: "There are also half a dozen of other startups that I worked with. I am unable to share more details as they are stealth mode. In short, I have done everything from Architecting to scaling apps. But I lack Designer Skills. Will be working on it"
