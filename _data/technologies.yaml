@@ -1,0 +1,14 @@
+- name: Languages
+  text: C, C++, C#, Java, HTML, JavaScript, CSS, Python, Objective-C, Shell, CoffeeScript, PHP
+
+- name: Frameworks / Toolkits / Libraries
+  text: Bootstrap, Twisted, Tornado, Flask, SQLAlchemy, Fabric, Node.js, Django
+
+- name: Developer Tools
+  text: Vim, Visual Studio, Xcode, Git, Mercurial, Emacs, Cocos2D, Unity3D
+
+- name: Databases
+  text: Postgres, MySQL, SQL Server, SQLite, MongoDB, Mnesia
+
+- name: Others
+  text: NginX, Redis, RabbitMQ, ElasticSearch, Design Patterns, User Interactivity, Kick-ass test-cases, Automated deployments, AWS, Linode, Heroku.

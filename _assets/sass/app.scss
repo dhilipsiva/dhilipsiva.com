@@ -59,13 +59,14 @@
 }
 
 .content-header {
-    height: 65px;
     line-height: 65px;
     h1 {
         margin: 0;
-        margin-left: 20px;
         line-height: 65px;
         display: inline-block;
+    }
+    h1, h3{
+        margin-left: 20px;
     }
 }
 

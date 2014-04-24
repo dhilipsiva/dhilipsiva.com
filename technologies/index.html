@@ -1,5 +1,25 @@
 ---
 layout: default
 title: Technologies
-description: Technologies that I have used and intrested to use
+description: Technologies that I have used
 ---
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Particulars</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for technology in site.data.technologies %}
+        <tr>
+            <td>
+                <p>{{ technology.name }}</p>
+            </td>
+            <td>
+                <p>{{technology.text}}</p>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
