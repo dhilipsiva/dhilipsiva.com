@@ -114,3 +114,15 @@
 .theme-color{
     color: $brand-success;
 }
+.caption {
+    min-height: 300px;
+    .repo-desc{
+        max-height: 135px;
+        overflow: hidden;
+    }
+    .star-btn{
+        position: absolute;
+        bottom: 45px;
+        right: 25px;
+    }
+}

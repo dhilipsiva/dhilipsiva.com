@@ -27,6 +27,8 @@
         <meta name="twitter:domain" content="dhilipsiva.com" />
 
         <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/feed.xml">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         {% stylesheet styles %}
     </head>
@@ -77,11 +79,10 @@
                     <h1>{{ page.title }}</h1>
                     <h3>{{ page.description }}</h3>
                 </div>
-                <div class="page-content inset">
+                <div class="container page-content inset">
                     {{ content }}
                 </div>
             </div>
         </div>
-        {% javascript app %}
     </body>
 </html>
