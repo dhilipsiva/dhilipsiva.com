@@ -1,5 +1,10 @@
 ---
 layout: default
-title: t
-description: t
+title: Services
+description: What kind of services do I offer?
 ---
+{% for service in site.data.services %}
+<h4 class="theme-color">{{ service.name }}</h4>
+<p>{{ service.description }}</p>
+<div class="clearfix"></div>
+{% endfor %}
