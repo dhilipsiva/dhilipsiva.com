@@ -1,11 +1,10 @@
 @import "variables";
 
 @font-face {
-    font-family: 'Bubbler One';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Bubbler One'), local('BubblerOne'), url(http://themes.googleusercontent.com/static/fonts/bubblerone/v2/tiAxK_A8SViEcY0M590QMLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
-
+  font-family: 'Marvel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Marvel'), local('Marvel-Regular'), url(http://themes.googleusercontent.com/static/fonts/marvel/v4/Hyek-o_5-zlx5kCUxtoev-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
 }
 
 #wrapper {
