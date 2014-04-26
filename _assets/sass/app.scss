@@ -1,5 +1,13 @@
 @import "variables";
 
+@font-face {
+    font-family: 'Bubbler One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bubbler One'), local('BubblerOne'), url(http://themes.googleusercontent.com/static/fonts/bubblerone/v2/tiAxK_A8SViEcY0M590QMLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+
+}
+
 #wrapper {
     padding-left: $sidebar-size;
     transition: all 0.4s ease 0s;
@@ -101,6 +109,9 @@
         padding: 15px;
     }
 }
+.font-size-tiny{
+    font-size: $font-size-tiny;
+}
 .posts {
     list-style-type: circle;
     .post-title {
@@ -125,4 +136,7 @@
         bottom: 45px;
         right: 25px;
     }
+}
+.ps-padding{
+    padding-top: 25px;
 }
