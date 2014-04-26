@@ -5,5 +5,20 @@ layout: default
 <a class="btn btn-success pull-right" href="/blog">← back</a>
 
 <div class="post">
-{{ content }}
+    {{ content }}
 </div>
+<div class="clearfix"></div>
+<hr />
+<div class="clearfix"></div>
+<div class="row text-center theme-color">
+    comments
+</div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'dhilipsiva';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
