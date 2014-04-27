@@ -3,12 +3,15 @@ layout: default
 title: Profiles
 description: Where else can you find me online?
 ---
-<ul>
-{% for profile in site.data.profiles %}
-  <li>
-    <a href="{{ profile.url }}" target="_blank">
-      {{ profile.name }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
+
+<div class="row">
+    {% for profile in site.data.profiles %}
+    <div class="col-md-1">
+        <a href="{{ profile.url }}" target="_blank">
+            <div class="thumbnail">
+                <img src="/webicons/webicon-{{ profile.id }}.svg" alt="{{ profile.name }}">
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>

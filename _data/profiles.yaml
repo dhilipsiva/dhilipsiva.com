@@ -1,26 +1,80 @@
-- name: GitHub
-  url: https://github.com/dhilipsiva
+- name: "GitHub"
+  url: "https://github.com/dhilipsiva"
+  id: "github"
 
-- name: Twitter
-  url: https://twitter.com/dhilipsiva
+- name: "Twitter"
+  url: "https://twitter.com/dhilipsiva"
+  id: "twitter"
 
-- name: StackOverflow
-  url: http://stackoverflow.com/users/1235072/dhilipsiva
+- name: "StackOverflow"
+  url: "http://stackoverflow.com/users/1235072/dhilipsiva"
+  id: "stackoverflow"
 
-- name: AlgelList
-  url: https://angel.co/dhilipsiva
+- name: "AlgelList"
+  url: "https://angel.co/dhilipsiva"
+  id: "angellist"
 
-- name: LinkedIn
-  url: http://in.linkedin.com/in/dhilipsiva
+- name: "LinkedIn"
+  url: "http://linkedin.com/in/dhilipsiva"
+  id: "linkedin"
 
-- name: Facebook
-  url: https://www.facebook.com/dhilipsiva
+- name: "Facebook"
+  url: "https://www.facebook.com/dhilipsiva"
+  id: "facebook"
 
-- name: Google+
-  url: https://plus.google.com/117130129908000087872/posts
+- name: "Google+"
+  url: "https://google.com/+dhilipsivabijju"
+  id: "googleplus"
 
-- name: Google Search
-  url: https://google.com/search?q=dhilipsiva
+- name: "Google Search"
+  url: "https://google.com/search?q=dhilipsiva"
+  id: "google"
 
-- name: SO Careers
-  url: http://careers.stackoverflow.com/dhilipsiva
+- name: "SO Careers"
+  url: "http://careers.stackoverflow.com/dhilipsiva"
+  id: "stackoverflow"
+
+
+- name: "About Me"
+  url: "http://about.me/dhilipsiva"
+  id: "aboutme"
+
+- name: "Good Reads"
+  url: "https://www.goodreads.com/dhilipsiva"
+  id: "goodreads"
+
+- name: "Coder Wall"
+  url: "https://coderwall.com/dhilipsiva"
+  id: "coderwall"
+
+- name: "Four Square"
+  url: "https://foursquare.com/dhilipsiva"
+  id: "foursquare"
+
+- name: "Instagram"
+  url: "http://instagram.com/dhilipsiva"
+  id: "instagram"
+
+- name: "Klout"
+  url: "http://klout.com/#/DhilipSiva"
+  id: "klout"
+
+- name: "Pinterest"
+  url: "http://www.pinterest.com/dhilipsiva/"
+  id: "pinterest"
+
+- name: "RSS"
+  url: "http://dhilipsiva.com/feed.xml"
+  id: "rss"
+
+- name: "dhilipsiva"
+  url: "skype://dhilipsiva"
+  id: "skype"
+
+- name: "Youtube"
+  url: "https://www.youtube.com/user/dhilipsiva"
+  id: "youtube"
+
+- name: "Reddit"
+  url: "http://www.reddit.com/user/dhilipsiva"
+  id: "reddit"
