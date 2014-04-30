@@ -68,7 +68,7 @@
   id: "rss"
 
 - name: "dhilipsiva"
-  url: "skype://dhilipsiva"
+  url: "skype:dhilipsiva?call"
   id: "skype"
 
 - name: "Youtube"
