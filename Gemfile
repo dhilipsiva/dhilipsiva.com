@@ -12,3 +12,4 @@ gem 'rubyzip'
 gem 'sass'
 gem 'uglifier'
 gem 'bootstrap-sass'
+gem "middleman-syntax"
