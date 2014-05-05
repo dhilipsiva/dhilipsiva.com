@@ -6,6 +6,16 @@ description: Some projects that I open-sourced.
 <div class="row" id="repos">
     <code>Loading...</code>
 </div>
+<h3>Few other projects that I contributed to</h3>
+<ul class="row">
+    {% for repo in site.data.open_source %}
+    <li>
+        <a href="https://github.com/{{ repo.repo }}/commits?author=dhilipsiva" target="_blank">
+            {{ repo.name }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
 <script type="text/template" id="repo_template">
     <div class="col-md-3">
         <div class="thumbnail well">

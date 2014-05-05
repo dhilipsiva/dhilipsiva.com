@@ -1,0 +1,20 @@
+- name: "QuickDialog"
+  repo: "escoz/QuickDialog"
+
+- name: "Vim Snippets"
+  repo: "honza/vim-snippets"
+
+- name: "AFS3Client"
+  repo: "jallen/AFS3Client"
+
+- name: "Ember Data Django Rest Adapter"
+  repo: "toranb/ember-data-django-rest-adapter"
+
+- name: "Ember App Kit"
+  repo: "stefanpenner/ember-app-kit"
+
+- name: "ChanceJS"
+  repo: "victorquinn/chancejs"
+
+- name: "Cyclone"
+  repo: "fiorix/cyclone"
