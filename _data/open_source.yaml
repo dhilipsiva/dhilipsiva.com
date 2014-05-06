@@ -21,3 +21,12 @@
 
 - name: "Cyclone"
   repo: "fiorix/cyclone"
+
+- name: "Harry Potter"
+  repo: "teoljungberg/harry-potter"
+
+- name: "Cheddar iOS"
+  repo: "nothingmagical/cheddar-ios"
+
+- name: "Homebrew"
+  repo: "Homebrew/homebrew"
