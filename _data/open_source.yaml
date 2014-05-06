@@ -10,6 +10,9 @@
 - name: "Ember Data Django Rest Adapter"
   repo: "toranb/ember-data-django-rest-adapter"
 
+- name: "CocoaPods Specs"
+  repo: "CocoaPods/Specs"
+
 - name: "Ember App Kit"
   repo: "stefanpenner/ember-app-kit"
 
