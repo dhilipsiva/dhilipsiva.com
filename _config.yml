@@ -26,6 +26,5 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
   - "LICENSE"
-  - "README.md"
   - "config.rb"
   - "uncss.js"
