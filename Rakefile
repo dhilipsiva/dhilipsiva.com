@@ -28,6 +28,7 @@ end
 desc "Generate and publish blog to gh-pages"
 task :publish => [:generate] do
   Dir.mktmpdir do |tmp|
+    system "node uncss.js"
     cp_r "_site/.", tmp
     Dir.chdir tmp
     system "git init"

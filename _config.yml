@@ -18,3 +18,14 @@ sitemap:
         - "/index.html"
     change_frequency_name: "daily"
     priority_name: "0.80"
+
+exclude:
+  - "node_modules"
+  - "package.json"
+  - "Rakefile"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "LICENSE"
+  - "README.md"
+  - "config.rb"
+  - "uncss.js"
