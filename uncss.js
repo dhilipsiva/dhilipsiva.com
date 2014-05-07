@@ -51,9 +51,13 @@ getCSSFiles = function (dir){
     return cssFiles;
 }
 
+console.log("Detecting all HTML files...");
 getHTMLFiles(options.htmlroot);
+
+console.log("Detacting all CSS files...");
 options.stylesheets = getCSSFiles(options.csspath);
 
+console.log("Indentifying and removing unused CSS rules...");
 uncss(htmlFiles, options, function (error, output) {
     if (error) {
         console.log(error);
@@ -63,13 +67,16 @@ uncss(htmlFiles, options, function (error, output) {
         var cssFile = options.htmlroot + options.stylesheets[0];
         fs.writeFile(cssFile, output, function(err) {
             if(err) {
+                console.log("ERROR:");
                 console.log(err);
             } else {
+                console.log("GZipping file...");
                 var gzip = zlib.createGzip();
                 var inp = fs.createReadStream(cssFile);
                 var out = fs.createWriteStream(cssFile + ".gz");
                 inp.pipe(gzip).pipe(out);
-                console.log("The file was saved!");
+
+                console.log("the CSS file is optimized!");
             }
         });
     }
