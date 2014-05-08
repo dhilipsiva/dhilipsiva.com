@@ -8,10 +8,8 @@ description: What do other people say about me?
     {% for testimonial in site.data.testimonials %}
     <div class="col-md-6">
         <div class="well">
-            <h5>
-                <a href="{{ testimonial.link }}" target="_blank">{{ testimonial.name }}</a>
-            </h5>
-            <p class="testimonial">{{ testimonial.text }}</p>
+            {{ testimonial.text }}
+            <a href="{{ testimonial.link }}" target="_blank" class="pull-right">- {{ testimonial.name }}</a>
         </div>
     </div>
     {% endfor %}
