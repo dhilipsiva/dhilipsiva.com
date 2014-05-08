@@ -125,7 +125,12 @@
     color: $brand-success;
 }
 .caption {
-    min-height: 300px;
+    text-align: center;
+    h5{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    min-height: 250px;
     .repo-desc{
         max-height: 135px;
         overflow: hidden;
