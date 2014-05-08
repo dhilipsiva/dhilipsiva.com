@@ -5,5 +5,14 @@ description: What do other people say about me?
 ---
 
 <div class="row">
-    Coming soon...
+    {% for testimonial in site.data.testimonials %}
+    <div class="col-md-6">
+        <div class="well">
+            <h5>
+                <a href="{{ testimonial.link }}" target="_blank">{{ testimonial.name }}</a>
+            </h5>
+            <p class="testimonial">{{ testimonial.text }}</p>
+        </div>
+    </div>
+    {% endfor %}
 </div>
