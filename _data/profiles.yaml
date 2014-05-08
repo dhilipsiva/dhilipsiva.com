@@ -34,6 +34,9 @@
   url: "http://careers.stackoverflow.com/dhilipsiva"
   id: "stackoverflow"
 
+- name: "Quora"
+  url: "http://www.quora.com/Dhilipsiva-Bijju"
+  id: "quora"
 
 - name: "About Me"
   url: "http://about.me/dhilipsiva"
