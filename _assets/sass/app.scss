@@ -208,5 +208,7 @@ pre a:only-of-type::before {
     }
 }
 .testimonial{
-    min-height: 230px;
+    .author{
+        text-align: center;
+    }
 }

@@ -2,7 +2,7 @@ name: dhilipsiva
 description: dhilipsiva
 url: http://dhilipsiva.com
 markdown: redcarpet
-pygments: true
+highlighter: 'pygments'
 assets:
   js_compressor: uglifier
   css_compressor: sass
