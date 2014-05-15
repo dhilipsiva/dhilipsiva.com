@@ -6,11 +6,37 @@ description: Some random musings. Mostly Technical.
 
 <div class="row">
     <ul class="posts">
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
         <li>
             <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
             <span class="post-date">{{ post.date | date_to_string }}</span>
         </li>
         {% endfor %}
     </ul>
+</div>
+
+<!-- Pagination links -->
+<div class="row pagination">
+
+    {% if paginator.previous_page %}
+     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-success">&laquo; Prev</a>
+    {% else %}
+    <span class="btn btn-default">&laquo; Prev</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+    <em class="well">{{ page }}</em>
+    {% elsif page == 1 %}
+    <a class="well" href="{{ '/blog/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+    <a class="well" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-success">Next &raquo;</a>
+    {% else %}
+    <span class="btn btn-default">Next &raquo;</span>
+    {% endif %}
 </div>

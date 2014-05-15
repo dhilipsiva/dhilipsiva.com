@@ -3,6 +3,8 @@ description: dhilipsiva
 url: http://dhilipsiva.com
 markdown: redcarpet
 highlighter: 'pygments'
+paginate: 10
+paginate_path: "blog/page:num"
 assets:
   js_compressor: uglifier
   css_compressor: sass
