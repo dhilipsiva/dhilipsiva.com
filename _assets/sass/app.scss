@@ -129,26 +129,24 @@ h1, h2, h3, .h1, .h2, .h3, .header-letter-spacing {
 .theme-color{
     color: $brand-success;
 }
-.thumbnail{
-    padding: 8px;
-    .caption {
-        padding: 1px;
-        text-align: center;
-        h5{
-            margin: 0px;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-        min-height: 250px;
-        .repo-desc{
-            max-height: 150px;
-            overflow: hidden;
-        }
-        .star-btn{
-            position: absolute;
-            bottom: 35px;
-            right: 30px;
-        }
+
+.repo-info {
+    padding: 1px;
+    text-align: center;
+    h5{
+        margin: 0px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    min-height: 250px;
+    .repo-desc{
+        max-height: 150px;
+        overflow: hidden;
+    }
+    .star-btn{
+        position: absolute;
+        bottom: 35px;
+        right: 30px;
     }
 }
 
