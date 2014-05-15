@@ -17,26 +17,26 @@ description: Some random musings. Mostly Technical.
 
 <!-- Pagination links -->
 <div class="row pagination">
-
+    Pages:
     {% if paginator.previous_page %}
-     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-success">&laquo; Prev</a>
+     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-success btn-sm">&laquo; Prev</a>
     {% else %}
-    <span class="btn btn-default">&laquo; Prev</span>
+    <span class="btn btn-default btn-sm">&laquo; Prev</span>
     {% endif %}
 
     {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-    <em class="well">{{ page }}</em>
+    <em class="btn btn-default btn-sm">{{ page }}</em>
     {% elsif page == 1 %}
-    <a class="well" href="{{ '/blog/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    <a class="btn btn-success btn-sm" href="{{ '/blog/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
-    <a class="well" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    <a class="btn btn-success btn-sm" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
     {% endfor %}
 
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-success">Next &raquo;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-success btn-sm">Next &raquo;</a>
     {% else %}
-    <span class="btn btn-default">Next &raquo;</span>
+    <span class="btn btn-default btn-sm">Next &raquo;</span>
     {% endif %}
 </div>
