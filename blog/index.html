@@ -21,12 +21,12 @@ description: Some random musings. Mostly Technical.
     {% if paginator.previous_page %}
      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-success btn-sm">&laquo; Prev</a>
     {% else %}
-    <span class="btn btn-default btn-sm">&laquo; Prev</span>
+    <span class="btn btn-default btn-sm active">&laquo; Prev</span>
     {% endif %}
 
     {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-    <em class="btn btn-default btn-sm">{{ page }}</em>
+    <em class="btn btn-default btn-sm active">{{ page }}</em>
     {% elsif page == 1 %}
     <a class="btn btn-success btn-sm" href="{{ '/blog/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
@@ -37,6 +37,6 @@ description: Some random musings. Mostly Technical.
     {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-success btn-sm">Next &raquo;</a>
     {% else %}
-    <span class="btn btn-default btn-sm">Next &raquo;</span>
+    <span class="btn btn-default btn-sm active">Next &raquo;</span>
     {% endif %}
 </div>
