@@ -1,12 +1,17 @@
 @import "variables";
 
-@font-face {
-    font-family: 'Marvel';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Marvel'), local('Marvel-Regular'), url(/static/fonts/marvel.woff) format('woff');
+* {
+    letter-spacing: -1px;
 }
-
+pre, kbd, code, .font-size-tiny, strong, b, .post-date{
+    letter-spacing: 0px;
+}
+h1, h2, h3, .h1, .h2, .h3, .header-letter-spacing {
+    letter-spacing: -4px;
+}
+.post-title {
+    letter-spacing: -3px;
+}
 #wrapper {
     padding-left: $sidebar-size;
     // transition: all 0.4s ease 0s;
