@@ -21,7 +21,7 @@ cssFiles = [];
 options = {
     htmlroot : '_site',
     csspath: '_site/assets',
-    ignore: [".repo-desc", /\.caption/],
+    ignore: [".repo-desc", /\.caption/, ".active"],
 };
 
 getHTMLFiles = function (dir){
