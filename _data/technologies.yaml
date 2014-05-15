@@ -11,4 +11,4 @@
   text: Postgres, MySQL, SQL Server, SQLite, MongoDB
 
 - name: Others
-  text: NginX, Redis, RabbitMQ, ElasticSearch, Design Patterns, Kick-ass test-cases, Automated deployments, AWS, Linode, Heroku.
+  text: NginX, Redis, RabbitMQ, ElasticSearch, Design Patterns, TDD, Automated deployments, AWS, Linode, Heroku.
