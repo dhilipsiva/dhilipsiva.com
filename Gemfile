@@ -13,3 +13,4 @@ gem 'sass'
 gem 'uglifier'
 gem 'bootstrap-sass'
 gem "middleman-syntax"
+gem 'jekyll-press'
