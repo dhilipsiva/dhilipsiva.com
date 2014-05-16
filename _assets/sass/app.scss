@@ -3,9 +3,11 @@
 * {
     letter-spacing: -1px;
 }
+
 pre, kbd, code, .font-size-tiny, strong, b, .post-date{
     letter-spacing: 0px;
 }
+
 h1, h2, h3, .h1, .h2, .h3, .header-letter-spacing {
     letter-spacing: -4px;
 }
@@ -113,9 +115,11 @@ h1, h2, h3, .h1, .h2, .h3, .header-letter-spacing {
         padding: 15px;
     }
 }
+
 .font-size-tiny{
     font-size: $font-size-tiny;
 }
+
 .posts {
     list-style-type: circle;
     .post-title {
@@ -126,6 +130,7 @@ h1, h2, h3, .h1, .h2, .h3, .header-letter-spacing {
         color: darken(#fff, 30%);
     }
 }
+
 .theme-color{
     color: $brand-success;
 }
@@ -153,15 +158,19 @@ h1, h2, h3, .h1, .h2, .h3, .header-letter-spacing {
 .ps-padding{
     padding-top: 25px;
 }
+
 code, kbd, pre{
     font-size: $font-size-code;
 }
+
 .latest-post{
     padding-top: 25px;
 }
+
 .file-data{
     font-size: 15px;
 }
+
 pre {
     counter-reset: line-numbering;
     border: solid 1px #d9d9d9;
@@ -216,11 +225,24 @@ pre a:only-of-type::before {
         padding: 20px;
     }
 }
+
 .testimonial{
     .author{
         text-align: center;
     }
 }
+
 img{
     max-width: 100%
+}
+
+* {
+    &::-moz-selection {
+        color:white;
+        background:$brand-success;
+    }
+    &::selection {
+        color:white;
+        background:$brand-success;
+    }
 }
