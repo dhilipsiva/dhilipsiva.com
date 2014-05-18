@@ -788,8 +788,8 @@ $close-text-shadow:           none;
 //
 //##
 
-$code-color:                  #c7254e;
-$code-bg:                     #f9f2f4;
+$code-color:                  darken($brand-success, 20%);
+$code-bg:                     lighten($brand-success, 50%);
 
 $kbd-color:                   #fff;
 $kbd-bg:                      #333;
