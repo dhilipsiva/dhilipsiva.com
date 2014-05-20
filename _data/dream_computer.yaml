@@ -62,3 +62,9 @@
   name: "Cooler Master COSMOS SE"
   link: "http://www.coolermaster.com/case/full-tower-cosmos-series/cosmos-se/"
   price: 13000
+
+
+- type: "OS"
+  name: "Windows 8.1"
+  link: "http://windows.microsoft.com/en-in/windows-8/meet"
+  price: 8000
