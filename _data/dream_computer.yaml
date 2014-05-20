@@ -23,6 +23,11 @@
   link: "http://www.sandisk.in/products/ssd/sata/ultra-plus/"
   price: 16000
 
+- type: "Optical Drive"
+  name: "Asus Blu-ray BW-12B1ST"
+  link: "http://www.asus.com/Storage_Optical_Drives/BW12B1ST/"
+  price: 8000
+
 - type: "Monitor"
   name: "Viewsonic VX2753MH 27 inch LED Backlit LCD"
   link: "http://www.viewsonic.com/us/vx2753mh-led.html"
