@@ -1,0 +1,59 @@
+- type: "Motherboard"
+  name: "ASRock Z87 Extreme11/ac"
+  link: "http://www.asrock.com/mb/intel/Z87%20Extreme11ac/index.asp?cat="
+  price: 47000
+
+- type: "Processor"
+  name: "Intel 3.6 GHz LGA 2011 i7 4960X"
+  link: "http://ark.intel.com/products/77779"
+  price: 84000
+
+- type: "RAM"
+  name: "G.Skill Ripjaws DDR3 32 GB PC RAM F3-12800CL10Q-32GBXL"
+  link: "http://www.gskill.com/en/product/f3-12800cl10q-32gbxl"
+  price: 24000
+
+- type: "Graphics Card"
+  name: "GeForce GTX 780 Ti"
+  link: "http://www.nvidia.com/gtx-700-graphics-cards/gtx-780ti/"
+  price: "57000"
+
+- type: "Hard Disk"
+  name: "SanDisk SSD 256 GB"
+  link: "http://www.sandisk.in/products/ssd/sata/ultra-plus/"
+  price: 16000
+
+- type: "Monitor"
+  name: "Viewsonic VX2753MH 27 inch LED Backlit LCD"
+  link: "http://www.viewsonic.com/us/vx2753mh-led.html"
+  price: 22000
+
+- type: "Keyboard"
+  name: "Logitech G19s"
+  link: "http://gaming.logitech.com/en-in/product/g19s-lcd-gaming-keyboard"
+  price: 15000
+
+- type: "Keyboard (One-Hand)"
+  name: "Razer Orbweaver"
+  link: "http://www.razerzone.com/gaming-keyboards-keypads/razer-orbweaver"
+  price: 10000
+
+- type: "Mouse"
+  name: "Razer Naga Hex"
+  link: "http://www.razerzone.com/gaming-mice/razer-naga-hex"
+  price: 7000
+
+- type: "Headset"
+  name: "Sennheiser G4ME ZERO"
+  link: "http://en-in.sennheiser.com/g4me-zero"
+  price: 25000
+
+- type: "PSU"
+  name: "Cooler Master Silent Pro Gold 1200 Watts"
+  link: "http://www.coolermaster.com/powersupply/silent-pro-gold/silent-pro-gold-1200w/"
+  price: 20000
+
+- type: "Cabinet"
+  name: "Cooler Master COSMOS SE"
+  link: "http://www.coolermaster.com/case/full-tower-cosmos-series/cosmos-se/"
+  price: 13000
