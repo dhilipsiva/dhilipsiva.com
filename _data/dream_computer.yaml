@@ -63,6 +63,15 @@
   link: "http://www.coolermaster.com/case/full-tower-cosmos-series/cosmos-se/"
   price: 13000
 
+- type: "Cooler (Processor)"
+  name: "Cooler Master V8 GTS"
+  link: "http://www.coolermaster-usa.com/product.php?product_id=10068"
+  price: 8000
+
+- type: "Cooler (Graphics Card, liquid)"
+  name: "Swiftech H220"
+  link: "http://www.swiftech.com/H220.aspx"
+  price: 12000
 
 - type: "OS"
   name: "Windows 8.1"
