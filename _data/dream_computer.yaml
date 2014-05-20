@@ -9,9 +9,9 @@
   price: 84000
 
 - type: "RAM"
-  name: "G.Skill Ripjaws DDR3 32 GB PC RAM F3-12800CL10Q-32GBXL"
-  link: "http://www.gskill.com/en/product/f3-12800cl10q-32gbxl"
-  price: 24000
+  name: "Corsair Vengeance Pro (4 x 8GB = 32GB)"
+  link: "http://www.corsair.com/en/memory/vengeance-pro-series"
+  price: 30000
 
 - type: "Graphics Card"
   name: "GeForce GTX 780 Ti"
