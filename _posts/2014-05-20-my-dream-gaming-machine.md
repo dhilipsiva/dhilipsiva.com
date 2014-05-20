@@ -20,14 +20,14 @@ Games are getting more realistic. I bought a decent machine 6 years ago. Now, it
 <tr>
 <td>{{ device.type }}</td>
 <td><a href="{{ device.link }}" target="_blank">{{ device.name }}</a></td>
-<td>₹ {{ device.price }}</td>
+<td class="text-right">₹ {{ device.price }}</td>
 </tr>
 {% endfor %}
 </tbody>
 <tfoot>
 <th>Price</th>
 <th>Total</th>
-<th>₹ {{site.data.dream_computer | total_price }}</th>
+<th class="text-right">₹ {{site.data.dream_computer | total_price }}</th>
 </tfoot>
 </table>
 
