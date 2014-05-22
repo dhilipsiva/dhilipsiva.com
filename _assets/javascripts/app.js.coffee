@@ -4,6 +4,13 @@ document.getElementById("menu-toggle").addEventListener "click", ((event) ->
   document.getElementById("wrapper").classList.toggle "active"
 ), false
 
+document.getElementById("show-disqus-comments").addEventListener "click", ((event) ->
+  script = document.createElement("script")
+  script.type = "text/javascript"
+  script.src = "//dhilipsiva.disqus.com/embed.js"
+  document.body.appendChild script
+  @innerText = "Loading..."
+), false
 
 # GoSquared tracker
 goSquared = (g, s, q, r, d) ->
