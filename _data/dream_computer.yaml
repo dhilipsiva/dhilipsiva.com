@@ -1,10 +1,10 @@
 - type: "Motherboard"
-  name: "Asus P9X79-E WS"
+  name: "ASUS Rampage IV Extreme Motherboard"
   link: "https://www.asus.com/Motherboards/P9X79E_WS/"
   price: 33000
 
 - type: "Processor"
-  name: "Intel 3.6 GHz LGA 2011 i7 4960X"
+  name: "Intel i7 4960X 3.6 GHz LGA 2011"
   link: "http://ark.intel.com/products/77779"
   price: 84000
 
