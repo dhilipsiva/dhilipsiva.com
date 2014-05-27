@@ -31,6 +31,6 @@ Games are getting more realistic. I bought a decent machine 6 years ago. Now, it
 </tfoot>
 </table>
 
-That is approximately ₹ {{site.data.dream_computer | total_price }} ($ {{site.data.dream_computer | total_price | divided_by: 60}}). Do you think that I can improve any spec? What are your thoughts?
+That is approximately ₹ {{site.data.dream_computer | total_price }} ($ {{site.data.dream_computer | total_price | divided_by: 59}}). Do you think that I can improve any spec? What are your thoughts?
 
 Anyone care to donate a poor gamer some money to buy his machine? :P
