@@ -53,6 +53,11 @@
   link: "http://en-in.sennheiser.com/g4me-zero"
   price: 25000
 
+- type: "Speakers"
+  name: "Creative GigaWorks T3"
+  link: "http://www.flipkart.com/creative-gigaworks-t3-multimedia-speakers/p/itmczzca45mepfvn"
+  price: 15000
+
 - type: "PSU"
   name: "Cooler Master Silent Pro Gold 1200 Watts"
   link: "http://www.coolermaster.com/powersupply/silent-pro-gold/silent-pro-gold-1200w/"
@@ -62,11 +67,6 @@
   name: "Cooler Master COSMOS SE"
   link: "http://www.coolermaster.com/case/full-tower-cosmos-series/cosmos-se/"
   price: 13000
-
-- type: "Cooler (Processor)"
-  name: "Cooler Master V8 GTS"
-  link: "http://www.coolermaster-usa.com/product.php?product_id=10068"
-  price: 8000
 
 - type: "Cooler (Graphics Card)"
   name: "Swiftech H220"
