@@ -24,7 +24,7 @@ h1, h2, h3, .h1, .h2, .h3, .header-letter-spacing {
     margin-left: -$sidebar-size;
     left: $sidebar-size;
     width: $sidebar-size;
-    background: darken(#fff, 5%);
+    background: $gray-lighter;
     position: fixed;
     height: 100%;
     overflow-y: auto;
