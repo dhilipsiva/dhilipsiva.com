@@ -13,4 +13,4 @@ So I have come to realize that: `I wanted only to be better programmer today, th
 
 Lately, a lot of people are approaching me to build stuff which I wont get paid for but share the revenue. I am posting this here just to tell that I don't want to do stuff like that. Not because I think that the Idea might fail and I might not get any money (As a matter of fact, I sometimes help people with absolutely nothing in return. I love doing stuff like that when I have time). Even if it is million-dollar Idea, I don't want to do it this way. Because I don't want anything in my head except technology.
 
-And that is why I don't want to be an Entrepreneur. I just want want to be the guy who writes awesome code. Tell me what you want, let me write code and pay for what I wrote. :)
+And that is why I don't want to be an Entrepreneur. I just want to be the guy who writes awesome code. Tell me what you want, let me write code and pay for what I wrote. :)
