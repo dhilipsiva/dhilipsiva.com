@@ -1,8 +1,8 @@
 - name: Languages
-  text: C, C++, C#, Java, HTML, JavaScript, CSS, Python, Objective-C, Shell, CoffeeScript, PHP, Ruby
+  text: C, Python, Ruby, JavaScript, Objective-C, C++, C#, Java, HTML, CSS,  Shell, CoffeeScript, PHP
 
 - name: Frameworks / Toolkits / Libraries
-  text: Backbone, Ember, Bootstrap, Foundation, Twisted, Tornado, Flask, SQLAlchemy, Fabric, Node.js, Django, Node, Rails, Spree
+  text: Django, Rails, Node, Flask, Backbone, Ember, Spree, Bootstrap, Foundation, SQLAlchemy, Fabric
 
 - name: Developer Tools
   text: Vim, Xcode, Visual Studio, Git, Mercurial, Emacs, Cocos2D, Unity3D
@@ -11,4 +11,4 @@
   text: Postgres, MySQL, SQL Server, SQLite, MongoDB
 
 - name: Others
-  text: NginX, Redis, RabbitMQ, ElasticSearch, Design Patterns, TDD, Automated deployments, AWS, Linode, Heroku, CGMiger.
+  text: NginX, Redis, RabbitMQ, ElasticSearch, Design Patterns, TDD, Automated deployments, AWS, Linode, Heroku, CGMiger
