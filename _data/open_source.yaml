@@ -19,6 +19,9 @@
 - name: "ChanceJS"
   repo: "victorquinn/chancejs"
 
+- name: "Spree Commerce"
+  repo: "spree/spree"
+
 - name: "Cyclone"
   repo: "fiorix/cyclone"
 
