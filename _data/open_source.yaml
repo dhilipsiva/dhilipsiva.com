@@ -33,3 +33,6 @@
 
 - name: "Homebrew"
   repo: "Homebrew/homebrew"
+
+- name: "Google Storage Signed URLs"
+  repo: "GoogleCloudPlatform/storage-signedurls-python"
