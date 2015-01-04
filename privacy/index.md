@@ -52,7 +52,7 @@ If you have any questions about this Privacy Policy, the practices of this site,
     Bangalore - 560038,
     Karnataka,
     India.
-    (+91) 81 97 98 53 97
+    (+91) 96630 21904
     dhilipsiva@gmail.com
 
 This document was last updated on April 26, 2014
