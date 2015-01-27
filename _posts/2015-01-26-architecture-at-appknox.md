@@ -62,9 +62,7 @@ This is where all the heavy lifting works are done. All the workers gets tasks f
 
 **Dynamic Scanning**: This is platform-specific. Each Android dynamic scanner is a On-Demand Compute instance that has android emulator (With SDKs) and a script that captures data. This emulator is shown on a canvas in the browser for user to interact. Each iOS scanner is in a managed Mac-Mini farm that has scripts and simulators supporting the iOS platform.
 
-### Data Layer
 
-Our data layer consists of MySQL (Google Cloud SQL)/ RabbitMQ and Redis. I guess we don't need to explain what does what.
 
 ### Reasons for choosing the stack
 
@@ -72,7 +70,7 @@ We chose Python because the primary libraries that we use to scan applications i
 
 We chose Django because it embraces modularity.
 
-Ember - We think that this is the most awesome Front-end framework that is out there. Yes, the learning curve is too steep than any-other, but once you climb that steep mountain, you will absolutely love ember. It is very opinionated. So as long as you stick it its conventions, you write less to do more.
+Ember - We think that this is the most awesome Front-end framework that is out there. Yes, the learning curve is too steep than any-other, but once you climb that steep mountain, you will absolutely love ember. It is very opinionated. So as long as you stick to its conventions, you write less to do more.
 
 And the rest are de-facto. MySQL because of relational data. RabbitMQ for Task Queues. Celery for Task Management. Redis for Pub/Sub. Memcached & Varnish for caching.
 
