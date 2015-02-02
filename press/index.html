@@ -1,0 +1,23 @@
+---
+layout: default
+title: Press
+description: Me and Media
+---
+
+
+<div class="row">
+    {% for press in site.data.presses %}
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="{{ press.image_url }}" alt="{{ profile.name }}">
+            <div class="caption">
+                <h3>{{ profile.name }}</h3>
+                <p>{{ press.description }}</p>
+                <p class="text-center">
+                    <a href="{{ press.url }}" class="btn btn-primary" role="button" target="_blank">Open</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
