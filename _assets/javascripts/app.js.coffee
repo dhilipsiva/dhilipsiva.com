@@ -4,7 +4,7 @@ document.getElementById("menu-toggle").addEventListener "click", ((event) ->
   document.getElementById("wrapper").classList.toggle "active"
 ), false
 
-document.getElementById("show-disqus-comments").addEventListener "click", ((event) ->
+try document.getElementById("show-disqus-comments").addEventListener "click", ((event) ->
   @innerText = "Loading..."
   script = document.createElement("script")
   script.type = "text/javascript"
@@ -25,3 +25,16 @@ goSquared = (g, s, q, r, d) ->
 
 goSquared window, document, "script", "_gs"
 _gs "GSN-764389-Z"
+
+window._weq = window._weq or {}
+window._weq['webengage.licenseCode'] = 'd3a49a6b'
+window._weq['webengage.widgetVersion'] = "4.0"
+
+webengage = (d) ->
+  _we = d.createElement 'script'
+  _we.type = 'text/javascript'
+  _we.async = true
+  _we.src = "//cdn.widgets.webengage.com/js/widget/webengage-min-v-4.0.js"
+  d.body.appendChild _we
+
+webengage document
