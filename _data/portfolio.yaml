@@ -28,7 +28,7 @@
 
 - name: "CollabLayer"
   link: "http://collablayer.com"
-  description: "Real-time Collaboration. Post-PC style. CollabLayer is an app to help collaborate around documents/images with your teams, customers and partners in real-time. While I was working at Tataatsu, I built most of the API endpoints on the backened. And an API consumption layer on the mobile end. And built few other features."
+  description: "Real-time Collaboration. Post-PC style. CollabLayer is an app to help collaborate around documents/images with your teams, customers and partners in real-time. While I was working at Tataatsu, I built most of the API endpoints on the backened, an API consumption layer on the mobile end and few other features."
 
 - name: "ReWire"
   link: "https://www.cocoacontrols.com/apps/525-rewire"
