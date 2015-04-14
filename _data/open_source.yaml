@@ -1,3 +1,6 @@
+- name: "Ember-Cli Gravatar"
+  repo: "johnotander/ember-cli-gravatar"
+
 - name: "QuickDialog"
   repo: "escoz/QuickDialog"
 
