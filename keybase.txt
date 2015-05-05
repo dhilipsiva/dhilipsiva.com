@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/dhilipsiva
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://dhilipsiva.com
+  * I am dhilipsiva (https://keybase.io/dhilipsiva) on keybase.
+  * I have a public key with fingerprint C089 E27F 91EB D68B 75F2  4144 2581 43B7 AA6E 4C40
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.8"
+        },
+        "key": {
+            "fingerprint": "c089e27f91ebd68b75f24144258143b7aa6e4c40",
+            "host": "keybase.io",
+            "key_id": "258143B7AA6E4C40",
+            "uid": "474965f0b14d936e26fb3bb225fd4e19",
+            "username": "dhilipsiva"
+        },
+        "merkle_root": {
+            "ctime": 1430855306,
+            "hash": "f14542d07ff5ab1a66eee33b143953b3b9a93a74abd31cdb75079359a9b434bd54824cf86eec0c3e1400a604318368b4e5ab2c4f992ea1e101fb0300adcf2cba",
+            "seqno": 215969
+        },
+        "service": {
+            "hostname": "dhilipsiva.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1430855435,
+    "expire_in": 157680000,
+    "prev": "e861448a86d64ed9e411b4151e474e9f1249fd6877c2887ffec68d7aae2d212e",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFlkl1sFFUUx3dLJaWL+AHUVDA2AzQidZ37MR93xRhotloLPJiIFZD1fpzZHdud
+WWaGSq2F8ESwoQhphCeMKTFpTDRV/KqYNLGYADHGoCEqMVE00pi0McQHpA/eqTVK
+nKc79/7O/5z/OefV2xdl6rIfTr336+P19dPZi9Mi83Tn/bkBQ4Sq3ygMGLLXhyBJ
+TwGvglEweqBf8BjyftgShAryL8QtC0yb0QdR7IeBpsy8k3eNwbYUT4M9PyhDVIv8
+VMuQpssAOx5DIJTtCsfyMEWUYstFlAiHcxuopKaWrIRxcktWY16z5Ct9+ze/2dm0
+yS7S9nl+7/wDdSizLc8UiCpGbMC2J4gQGFueooBYCsYQLVhSFb/Xr8V+H08rrkLU
+0wulKAznbcvETyGdx3Qti5i2ronHFR3mIWpRrEzH8ywuELdtACBE5yTMIjof44xw
+h3KhCJJKuzQdRix9KyihQlnUxVR6rg6TpiSAqGly26QEuUQ3hYJWxZJ6jGHgCJCJ
+PGESzSjpYSm4NhHDniA0ChhZzGaD6X/U50tI604b9z9/eRlWdVgtCpNQhr36rZIk
+tUJqO+mvpez4iyBKCzIl4QdKD+6/k0UavbUllFhtBuyr+RGU/JSwHNs19ZfmgT6t
+Ca6th+ty11Y2BcWAIiQoshDoOQHzEKbM03vgOBK7rm4nSNtVegsAK4ww/GvU1XXy
+spaM/XLAk70RGIOHs6vrM9m6zOLb6tLVzTQuufOffT5zoiEzemXditkDo0MT786c
+m73ec/ngtur+7qauRW1fdVzOPSgf+eR05+KPf3zr95ljO1/7pmHoxsHTO1r3zCyt
+5rbvQvc8Nla+uRyPHG7J/rT9wHfWHblrx4/vyNwcm3ip//nCujc+n6bo6KonH+68
+b6749ZvDz3Z8OvbU7MifKycvNT9w/srV1ullxa7ZrRMfNR1RU9Fzc+1zM+M/T/1x
+/cTSV75Alc6jW6q53KFnJnet3bxzOMg24rM3ksaNa/zhJ1oferR7xfmudz4409xQ
+eP+34slj105tef3qwNb2fZ/dVfwlv+Fe9m1Px9lVeHT/D+fWbzzy8rbmQ+XJ3SvH
+Vy9b215tevvu7zesGbnw5frB7qHiXw==
+=IxQS
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dhilipsiva
+
+==================================================================
