@@ -17,7 +17,7 @@ Securing your app is as simple as submitting your store link / uploading your ap
 ## Our Stack
 
 1. Django
-2. MySQL
+2. Postgres (Migrated from MySQL)
 3. RabbitMQ
 4. Celery
 5. Redis
@@ -46,7 +46,7 @@ The client subsystem consists of two different load-balanced, auto-scaling App &
 
 This system is used for data storage, queuing and pub/sub. Which is also responsible for a decoupled architecture.
 
-**Database Cluster**: We use MySQL. It goes without saying that it consists of a Write-Heavy master and few Read-Heavy replicas.
+**Database Cluster**: We use Postgres. It goes without saying that it consists of a Write-Heavy master and few Read-Heavy replicas.
 
 **RabbitMQ**: A broker to our celery workers. We have different queues for different workers. Mainly `download`, `validate`, `upload`, `analyse`, `report`, `mail` and `bot`. The web server puts data into queue, the celery workers pick it up and run it.
 
@@ -72,7 +72,9 @@ We chose Django because it embraces modularity.
 
 Ember - We think that this is the most awesome Front-end framework that is out there. Yes, the learning curve is too steep than any-other, but once you climb that steep mountain, you will absolutely love ember. It is very opinionated. So as long as you stick to its conventions, you write less to do more.
 
-And the rest are de-facto. MySQL because of relational data. RabbitMQ for Task Queues. Celery for Task Management. Redis for Pub/Sub. Memcached & Varnish for caching.
+Postgres - Originally, we chose MySQL because it was de-facto. After Oracle purchased Sun Microsystems (Parent company of MySQL), MySQL became stagnant. I guess we all expected it. So we dided to use MariaDB [A fork of MySQL] maintained by community. Later, we required persistent key-value stores a bit, which is offered out of the box by Postgres. It plays really well with Python. We use UUIDs as primary keys which is a native data type in Postgres. Also, the `uuis-ossp` module provided functions to generate and manipulate UUIDs at the Database level, rather than creating them at application level, which was costlier. So we switched to Postgres.
+
+And the rest are de-facto. RabbitMQ for Task Queues. Celery for Task Management. Redis for Pub/Sub. Memcached & Varnish for caching.
 
 ### Things that didn't go as expected
 
