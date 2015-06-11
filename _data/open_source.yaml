@@ -37,5 +37,8 @@
 - name: "Homebrew"
   repo: "Homebrew/homebrew"
 
+- name: "Sherlog.JS"
+  repo: "burakson/sherlogjs"
+
 - name: "Google Storage Signed URLs"
   repo: "GoogleCloudPlatform/storage-signedurls-python"
