@@ -1,3 +1,6 @@
+- name: "Python India - Junction"
+  repo: "pythonindia/junction"
+
 - name: "Ember-Cli Gravatar"
   repo: "johnotander/ember-cli-gravatar"
 
