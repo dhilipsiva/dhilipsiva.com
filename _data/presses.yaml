@@ -2,3 +2,8 @@
   url: "http://yourstory.com/2015/01/appknox-architecture/"
   description: "`Architecture at AppKnox` an article that I wrote is featured on YourStory."
   image_url:  "http://cdn1.yourstory.com/wp-content/uploads/2013/08/YourStory_Media-Logo.png"
+
+- name: "GeekScot"
+  url: "http://geek.scot/twoo-user-takes-revenge-with-script-to-spam-users/"
+  description: "My revenge against Twoo"
+  image_url:  "http://geek.scot/wp-content/uploads/2014/09/GeekScot.png"
