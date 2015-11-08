@@ -30,6 +30,7 @@ task :publish => [:generate] do
   Dir.mktmpdir do |tmp|
     system "node uncss.js"
     cp_r "_site/.", tmp
+	cp "_assets/javascripts/test.1.js", tmp
     Dir.chdir tmp
     system "git init"
     system "git add ."
