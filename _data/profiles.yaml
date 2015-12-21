@@ -18,10 +18,6 @@
   url: "http://linkedin.com/in/dhilipsiva"
   id: "linkedin"
 
-- name: "Facebook"
-  url: "https://www.facebook.com/dhilipsiva"
-  id: "facebook"
-
 - name: "Google+"
   url: "https://google.com/+dhilipsivabijju"
   id: "googleplus"
