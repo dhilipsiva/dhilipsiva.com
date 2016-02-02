@@ -45,3 +45,6 @@
 
 - name: "Google Storage Signed URLs"
   repo: "GoogleCloudPlatform/storage-signedurls-python"
+
+- name: "Django Token API"
+  repo: "jpulgarin/django-tokenapi"

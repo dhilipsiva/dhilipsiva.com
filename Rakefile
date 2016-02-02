@@ -85,7 +85,8 @@ task :new_job do
   File.open(filename, "w") do |post|
     post.puts "---"
     post.puts "layout: job_post"
-    post.puts "title: #{startup}, #{role}, #{location}, #{job_type}"
+    post.puts "title: #{startup}"
+    post.puts "description: #{role}, #{location}, #{job_type}"
     post.puts "startup: #{startup}"
     post.puts "role: #{role}"
     post.puts "location: #{location}"
@@ -107,7 +108,7 @@ task :new_techie do
   location = say_what?('Location: ')
   job_type = say_what?('Job Type: ')
 
-  filename  = "job-board/techie/#{Time.now.strftime('%Y-%m-%d')}-#{sluggize name}-#{sluggize role}-#{sluggize location}-#{sluggize job_type}.md"
+  filename  = "job-board/techies/#{Time.now.strftime('%Y-%m-%d')}-#{sluggize name}-#{sluggize role}-#{sluggize location}-#{sluggize job_type}.md"
 
   if File.exist? filename
     puts "Can't create new Techie post: \e[33m#{filename}\e[0m"
@@ -118,8 +119,9 @@ task :new_techie do
   File.open(filename, "w") do |post|
     post.puts "---"
     post.puts "layout: job_post"
-    post.puts "title: #{name}, #{role}, #{location}, #{job_type}"
+    post.puts "title: #{name}"
     post.puts "name: #{name}"
+    post.puts "description: #{role}, #{location}, #{job_type}"
     post.puts "role: #{role}"
     post.puts "location: #{location}"
     post.puts "job_type: #{job_type}"
