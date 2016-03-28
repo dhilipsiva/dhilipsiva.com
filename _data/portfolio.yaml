@@ -18,10 +18,6 @@
   link: "http://weare.thealbums.co"
   description: "The Albums is a ad-free, members-supported photo sharing platform for families. While I was at LaunchYard, I implemented some major features. I refactored more than half of code base which was written by someone else to make it more readable and maintainable."
 
-- name: "Darbalwosoul"
-  link: "https://darbalwosoul.com"
-  description: "A site for Arabic Teachers and Students. A place where Teachers can upload the lesson, lesson pdf, videos, etc. and students can download them. While I was at LaunchYard, we built Darbalwosoul. I Architected and wrote the whole system from scratch. I took a decoupled front-end and backend approach."
-
 - name: "Delight"
   link: "http://delighthq.com"
   description: "Delightful project management for building mobile and web applications. While working with LaunchYard, I re-wrote the entire front-end in CoffeeScript in a properly organized fashion. I implemented search with ElasticSearch. I implemented post comment in the app through Email. And built few other features too."
