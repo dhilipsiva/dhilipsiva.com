@@ -7,3 +7,13 @@
   url: "http://geek.scot/twoo-user-takes-revenge-with-script-to-spam-users/"
   description: "My revenge against Twoo. Twoo spammed my contacts. I spammed thier users."
   image_url:  "http://geek.scot/wp-content/uploads/2014/09/GeekScot.png"
+
+- name: "Deis"
+  url: "http://deis.io/deis-1-13-lts"
+  description: "I contributed to Deis. Deis is a Open Source Application Platform For Public and Private Clouds."
+  image_url: "http://deis.io/assets/img/menu-logo.png"
+
+- name: "PyCon India (Junction)"
+  url: "https://in.pycon.org/2016/team.html"
+  description: "I contributed to `Junction`. Junction is a software to manage proposals, reviews, schedule, feedback during PyCon India conference."
+  image_url: "https://in.pycon.org/2016/images/logolg.png"
