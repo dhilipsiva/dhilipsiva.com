@@ -7,6 +7,9 @@
 - name: "QuickDialog"
   repo: "escoz/QuickDialog"
 
+- name: "Minio Python Client"
+  repo: "minio/minio-py"
+
 - name: "Vim Snippets"
   repo: "honza/vim-snippets"
 
