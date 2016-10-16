@@ -9,6 +9,7 @@ gem "jekyll-sitemap"
 gem "jekyll-gist"
 gem "jekyll-paginate"
 gem 'jekyll-seo-tag'
+gem "rake"
 
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
