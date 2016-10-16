@@ -1,40 +1,54 @@
-name: "dhilipsiva"
-description: "dhilipsiva"
+title: dhilipsiva
+email: dhilipsiva@gmail.com
+baseurl: ""
 url: "http://dhilipsiva.com"
-markdown: "redcarpet"
-highlighter: 'pygments'
+twitter_username: dhilipsiva
+github_username:  dhilipsiva
+author: dhilipsiva
+twitter: dhilipsiva
 paginate: 10
-paginate_path: "blog/page:num"
+paginate_path: "/blog/page:num/"
+markdown: kramdown
+description: >
+  dhilipsiva's random musings, info, interestes, experience, portfolio and
+  everything.
 
-assets:
-  js_compressor: uglifier
-  css_compressor: sass
-  sources:
-    - _assets/images
-    - _assets/javascripts
-    - _assets/sass
+facebook:
+  admins: 1627550002
 
-sitemap:
-  file: "/sitemap.xml"
-  exclude:
-    - "/feed.xml"
-  include_posts:
-    - "/index.html"
-  change_frequency_name: "daily"
-  priority_name: "0.80"
-
-jekyll-press:
-  exclude: 'feed.xml'
-  js_options: {}
-  css_options: {}
-  html_options: {}
+gems:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 exclude:
-  - "node_modules"
-  - "package.json"
-  - "Rakefile"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "LICENSE"
-  - "config.rb"
-  - "uncss.js"
+  - Gemfile
+  - Gemfile.lock
+
+assets:
+  autowrite: true
+  cache: .asset-cache
+  cache_type: filesystem
+  prefix: "/assets"
+  digest: true
+
+  assets:
+    - "*.jpg"
+
+  compress:
+    css: true
+    js: true
+
+  sources:
+    - _assets/sass
+    - _assets/images
+    - _assets/javascripts
+
+  features:
+    liquid: true
+    integrity: true
+    automatic_img_size: true
+    automatic_img_alt : true

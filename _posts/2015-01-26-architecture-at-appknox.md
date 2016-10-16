@@ -28,7 +28,7 @@ Securing your app is as simple as submitting your store link / uploading your ap
 
 ### Architecture
 
-![Architecture at AppKnox](/images/architecture-at-appknox.jpg)
+{% img 'architecture-at-appknox.jpg' %}
 
 ### How it works?
 

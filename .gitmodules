@@ -1,3 +1,0 @@
-[submodule ".vim/bundle/nginx"]
-	path = .vim/bundle/nginx
-	url = git@github.com:evanmiller/nginx-vim-syntax.git

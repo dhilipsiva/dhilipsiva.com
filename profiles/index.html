@@ -11,7 +11,7 @@ My username / ID on all the site is <code>dhilipsiva</code> and I always use <co
     <div class="col-md-1">
         <a href="{{ profile.url }}" target="_blank">
             <div class="thumbnail">
-                <img src="/webicons/webicon-{{ profile.id }}.svg" alt="{{ profile.name }}">
+                {% img "webicons/webicon-{{ profile.id }}.svg" alt="{{ profile.name }}" %}
             </div>
         </a>
     </div>

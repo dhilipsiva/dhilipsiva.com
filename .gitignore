@@ -40,3 +40,5 @@ Gemfile.lock
 .DS_Store
 _assets/stylesheets/*.css
 node_modules/*
+.jekyll-metadata
+.asset-cache

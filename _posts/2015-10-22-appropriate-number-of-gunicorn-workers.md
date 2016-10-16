@@ -1,6 +1,6 @@
 ---
-layout:    post
-title:     Appropriate Number of Gunicorn Workers
+layout: post
+title: Appropriate Number of Gunicorn Workers
 ---
 
 To quote [Gunicorn documentation](http://docs.gunicorn.org/en/19.3/design.html#how-many-workers)
