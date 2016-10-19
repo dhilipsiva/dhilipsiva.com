@@ -1,11 +1,11 @@
 ---
 layout: post
-title: If you need a degree certificate (form a reputed college or otherwise) to succeed in life, then you were not educated properly.
+title: If you need a degree certificate (from a reputed college or otherwise) to succeed in life, then you were not educated properly.
 ---
 
 ## Say what now?
 
-Yes, you read that right. `If you need a degree certificate (form a reputed college or otherwise) to succeed in life, then you were not educated properly.`. Most probably. I left out the `most probably` part of the title because it would not fit a single tweet (with the link of this post). :P :D
+Yes, you read that right. `If you need a degree certificate (from a reputed college or otherwise) to succeed in life, then you were not educated properly.`. Most probably. I left out the `most probably` part of the title because it would not fit a single tweet (with the link of this post). :P :D
 
 Before I begin, I am not trying to hurt anyone's feelings. If you are one of the people who got butt-hurt reading the title, my sincere apologies that your teeny, tiny & tender butt got hurt. And I am not being judgemental. I don't judge their path if I haven't walked their journey. I am just merely making a simple observation - from an experience that's alien to most people.
 
@@ -23,11 +23,11 @@ The educational system that we are following today has not evolved for a long pe
 
 It is [estimated](https://en.wikipedia.org/wiki/Demographics_of_India) that more than 50% of people in India are less than 25 years of age. That is almost 700 million of them. For the sake of argument, consider you are wasting just 1 hour of everybody's time to teach something that they are never going to use. You might think `what is the harm in that?` right? Let me put in perspective for you. You are wasting approximately 80,000 years worth of man-hours. And that is just in India. Think of other things that you could have done in that time. Think of a simple task like planting a tree. 700 million plants planted. You know how much of Carbon-di-oxide could have been reduced?
 
-I know I am speaking very idealistic here. But today's educational system is supremely bad. And I am not talking about MIT or Stanford (or other sensible institutions). I they they are okay. But the rest is just pure crap (IMHO).
+I know I am speaking very idealistic here. But today's educational system is supremely bad. And I am not talking about MIT or Stanford (or other sensible institutions). I think they are okay. But the rest is just pure crap (IMHO).
 
-Think about it. You spend years at an institution, learn some stuff. But if that counts for nothing without a piece of paper that certifies you, then it is not an educational at all. I think this is fairly obvious. If you do not get it - do comment I will attempt to explain.
+Think about it. You spend years at an institution, learn some stuff. But if that counts for nothing without a piece of paper that certifies you, then it is not an education at all. I think this is fairly obvious. If you do not get it - do comment I will attempt to explain.
 
 
 ## Final thoughts
 
-See, I am not saying that everyone should stop getting degrees, right? I am just saying that there is other options. And that things need to change. We are in 2016. We are not in the Industrial age anymore. This digital age. Mahatma Gandi once said `be the change you want to see`. And an other great man once said `The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion`. I guess that is what I am trying to do here. Acquire a skill that there is a demand for (the one that you like that most). Work hard and practice all the time to hone your skills. You would not require a degree certificate (form a reputed college or otherwise) to succeed in life anymore. You would be properly educated.
+See, I am not saying that everyone should stop getting degrees, right? I am just saying that there are other options. And that things need to change. We are in 2016. We are not in the Industrial age anymore. This digital age. Mahatma Gandi once said `be the change you want to see`. And an other great man once said `The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion`. I guess that is what I am trying to do here. Acquire a skill that there is a demand for (the one that you like that most). Work hard and practice all the time to hone your skills. You would not require a degree certificate (from a reputed college or otherwise) to succeed in life anymore. You would be properly educated.
