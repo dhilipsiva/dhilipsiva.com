@@ -19,4 +19,4 @@ Facebook: [https://www.facebook.com/Bangalore-Machine-Learning-Meetup-6473998854
 
 LinkedIn: [https://www.linkedin.com/groups/10325173](https://www.linkedin.com/groups/10325173)
 
-Mailing List: [BangML-list@meetup.com](mailto://BangML-list@meetup.com)
+Mailing List: [BangML-list@meetup.com](mailto:BangML-list@meetup.com)
