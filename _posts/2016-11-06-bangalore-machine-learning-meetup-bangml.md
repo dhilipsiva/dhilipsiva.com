@@ -15,7 +15,7 @@ Here is how to join:
 
 Meetup: [https://www.meetup.com/BangML/](https://www.meetup.com/BangML/)
 
-Facebook: [https://www.facebook.com/Bangalore-Machine-Learning-Meetup-647399885420445/](https://www.facebook.com/Bangalore-Machine-Learning-Meetup-647399885420445/)
+Facebook: [https://www.facebook.com/BangMLMeetup/](https://www.facebook.com/BangMLMeetup/)
 
 LinkedIn: [https://www.linkedin.com/groups/10325173](https://www.linkedin.com/groups/10325173)
 
