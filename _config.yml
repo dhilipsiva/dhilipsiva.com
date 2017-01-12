@@ -23,6 +23,7 @@ gems:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-timeago
 
 exclude:
   - Gemfile
