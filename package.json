@@ -3,9 +3,9 @@
     "description": "Source code of my personal website and blog. http://dhilipsiva.com",
     "version": "0.0.1",
     "dependencies": {
-        "coffee-script": "~1.6.3",
-        "uncss": "0.8.1",
         "clean-css": "2.1.8",
+        "coffee-script": "~1.6.3",
+        "uncss": "^0.8.1",
         "zlib": "1.0.5"
     }
 }
