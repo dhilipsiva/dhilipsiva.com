@@ -1,6 +1,12 @@
+- name: "ZeOmega"
+  link: "http://www.zeomega.com/"
+  duration: "November 2017 - Present"
+  description: "Working on things that I am not supposed to disclosed. Just writing a lot of Python code."
+
+
 - name: "AppKnox"
   link: "https://www.appknox.com/"
-  duration: "November 2014 - present"
+  duration: "November 2014 - October 2017"
   description: "At AppKnox, I am responsible for architecting the entire product from ground-up, deploying it and ensuring the reliability & scalability of the site. I also built a Device Farm, Flexbox-based CSS Framework and built the Tech Team from ground-up."
 
 - name: "GAW Miners"

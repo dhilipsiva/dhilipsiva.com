@@ -1,7 +1,7 @@
 ---
 layout: default
 title: dhilipsiva
-description: Checkout AirCTO if you want to hire top talent!
+description: Hello World! Foo Bar!!
 ---
 <div class="row">
     <div class="col-md-3">
@@ -10,9 +10,9 @@ description: Checkout AirCTO if you want to hire top talent!
         </div>
     </div>
     <div class="col-md-9">
+        Wannabe Astrophycist. <br/>
         Yes, I <code>code</code> - a lot. <br />
         Have been coding since July, 2005 ({% timeago "2005-7-1" %}). <br/>
-	Co-Founder & CTO <a href="https://aircto.com">@AirCTO</a><br />
         I build scalable and maintainable stuff for web, mobile and desktop.  <br/>
         An IoT, Machine Learning & Big Data Enthusiast. <br/>
         Open-Source fanatic. <br />
@@ -26,6 +26,6 @@ description: Checkout AirCTO if you want to hire top talent!
 </div>
 <div class="row latest-post">
     {% for post in site.posts limit:1 %}
-    Latest post: <a href="{{ post.url }}" >{{ post.title | xml_escape }}</a>
+        Latest post: <a href="{{ post.url }}" >{{ post.title | xml_escape }}</a>
     {% endfor %}
 </div>
