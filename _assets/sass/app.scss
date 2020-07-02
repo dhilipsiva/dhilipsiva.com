@@ -105,7 +105,7 @@ h1, h2, h3, .h1, .h2, .h3, .header-letter-spacing {
         #sidebar-wrapper {
             left: $sidebar-size;
             width: $sidebar-size;
-            // transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
         }
     }
     #menu-toggle {

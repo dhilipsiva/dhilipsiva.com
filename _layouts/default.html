@@ -107,5 +107,12 @@
             </div>
         </div>
         {% javascript app %}
+        <script charset="utf-8">
+            var toggleBtn = document.getElementById('menu-toggle')
+            var wrapperEl = document.getElementById('wrapper')
+            toggleBtn.onclick = function(){
+            wrapper.classList.toggle('active')
+            }
+        </script>
     </body>
 </html>
