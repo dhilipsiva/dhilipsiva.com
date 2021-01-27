@@ -13,10 +13,7 @@ description: >
   dhilipsiva's random musings, info, interestes, experience, portfolio and
   everything.
 
-facebook:
-  admins: 1627550002
-
-gems:
+plugins:
   - jekyll-feed
   - jekyll-assets
   - jekyll-sitemap
