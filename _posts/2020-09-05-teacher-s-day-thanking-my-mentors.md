@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Teacher's Day - Thanking my mentors'
+title: 'Teachers Day - Thanking my mentors'
 ---
 
 Not a single person on this planet is ever self-made. A `self-made [any title]` is a total BS. If Nikola Tesla did not do what he did, we wouldn't know Bill Gates, Steve Jobs, Mark Zukerberg and the list goes on. If Newton did not do what he did, we would never know about Einstien. These are just some obvious examples.
