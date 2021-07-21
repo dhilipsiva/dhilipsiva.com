@@ -1,38 +1,36 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
+from datetime import datetime
 
 AUTHOR = "dhilipsiva"
-SITENAME = "dhilipsiva"
-SITEURL = ""
-
+# AUTHOR_FEED_ATOM = None
+# AUTHOR_FEED_RSS = None
+# CATEGORY_FEED_ATOM = None
+COPYRIGHT_YEAR = datetime.now().year
+DEFAULT_PAGINATION = 10
+DEFAULT_LANG = "en"
+DEFAULT_PAGINATION = 10
+DISQUS_SITENAME = "dhilipsiva"
+FEED_ALL_ATOM = None
+MAIN_MENU = True
 PATH = "content"
-
+PYGMENTS_STYLE_DARK = "monokai"
+ROBOTS = "index, follow"
+SITEDESCRIPTION = "dhilipsiva python rust devops nitimis democratic socialist"
+SITELOGO = "/images/dhilipsiva.png"
+SITENAME = "dhilipsiva"
+SITESUBTITLE = "Python, Rust & DevOps"
+SITETITLE = "dhilipsiva"
+# SITEURL = "https://dhilipsiva.com"
+THEME = "pelican-theme-flex"
+THEME_COLOR = "dark"
 TIMEZONE = "Asia/Kolkata"
 
-DEFAULT_LANG = "en"
+LINKS = (("Home", "/"),)
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
-# Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
-
-# Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("SOC1", "#"),
+    ("SOC2", "#"),
 )
 
-DEFAULT_PAGINATION = 10
-
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+EXTRA_PATH_METADATA = {
+    "images/favicon.ico": {"path": "favicon.ico"},
+}

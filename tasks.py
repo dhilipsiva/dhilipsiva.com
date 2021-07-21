@@ -8,7 +8,6 @@ import datetime
 
 from invoke import task
 from invoke.main import program
-from invoke.util import cd
 from pelican import main as pelican_main
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 from pelican.settings import DEFAULT_CONFIG, get_settings_from_file
@@ -28,7 +27,7 @@ CONFIG = {
     "github_pages_branch": "gh-pages",
     "commit_message": "'Publish site on {}'".format(datetime.date.today().isoformat()),
     # Host and port for `serve`
-    "host": "localhost",
+    "host": "0.0.0.0",
     "port": 8000,
 }
 
