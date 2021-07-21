@@ -44,3 +44,4 @@ node_modules/*
 .asset-cache
 .jekyll-cache
 output/*
+cache/*
