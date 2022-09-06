@@ -1,0 +1,26 @@
+$breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px) !default;
+$viewports: (sm: 510px, md: 700px, lg: 920px, xl: 1130px) !default;
+
+$black: #000 !default;
+$white: #fff !default;
+
+$grey-hue: 205 !default;
+$grey-50: hsl($grey-hue, 20%, 94%) !default;
+$grey-200: hsl($grey-hue, 16%, 77%) !default;
+$grey-900: hsl($grey-hue, 30%, 15%) !default;
+
+$primary-hue: 195 !default;
+$primary-500: hsl($primary-hue, 80%, 50%) !default;
+$primary-600: hsl($primary-hue, 85%, 41%) !default;
+
+
+$color: $grey-200 !default;
+$background-color: mix($black, $grey-900, 37.5%) !default;
+
+$primary: $primary-600 !default;
+$primary-hover: $primary-500 !default;
+$primary-focus: rgba($primary-600, 0.25) !default;
+$primary-inverse: $white !default;
+
+$button-box-shadow: 0 0 0 rgba(0, 0, 0, 0) !default;
+$button-hover-box-shadow: 0 0 0 rgba(0, 0, 0, 0) !default;
