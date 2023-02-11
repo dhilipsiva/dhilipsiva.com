@@ -10,7 +10,7 @@ python = "^3.9"
 
 [tool.poetry.dev-dependencies]
 neovim = "^0.3.1"
-ipython = "^7.25.0"
+ipython = "^8.10.0"
 flake8 = "^3.9.2"
 pep8 = "^1.7.1"
 ipdb = "^0.13.9"
