@@ -1,16 +1,28 @@
-# The URL the site will be built for
 base_url = "https://dhilipsiva.com"
-
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+theme = "terminimal"
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
+_taxonomies = [
+    {name = "tags"},
+]
+
 [extra]
-# Put all your custom variables here
+accent_color = "green"
+background_color = "dark"
+logo_text = "dhilipsiva"
+author = "dhilipsiva"
+menu_items = [
+    # {name = "home", url = "$BASE_URL"},
+    # tags should only be enabled if you have "tags" taxonomy
+    # see documentation below for more details
+    # {name = "tags", url = "$BASE_URL/tags"},
+    {name = "GitHub", url = "https://github.com/dhilipsiva", newtab = true},
+    {name = "LinkedIn", url = "https://www.linkedin.com/in/dhilipsiva/", newtab = true},
+    {name = "StackOverflow", url = "https://stackoverflow.com/users/1235072/dhilipsiva", newtab = true},
+    {name = "Medium", url = "https://medium.com/@dhilipsiva", newtab = true},
+    {name = "Email", url = "mailto:dhilipsiva@pm.me", newtab = true},
+]
